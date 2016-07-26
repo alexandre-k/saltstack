@@ -1,0 +1,12 @@
+$ORIGIN 9.e.5.a.0.0.0.7.0.f.9.1.1.0.0.2.ipv6.arpa.
+$TTL 86400
+@	IN	SOA	ns.yowassupbro.com.	hostmaster.yowassupbro.com. (
+		2016022401
+		21600
+		3600
+		604800
+		86400)
+	IN	NS	dev.yowassupbro.com.
+b.e.c.0.f.1.e.f.f.f.0.0.0.0.4.5	IN	PTR	jupiter.yowassupbro.com.
+a.e.c.0.f.1.e.f.f.f.0.0.0.0.4.5 IN      PTR     mail.yowassupbro.com.
+

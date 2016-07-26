@@ -1,0 +1,10 @@
+$ORIGIN 44.32.45.in-addr.arpa.
+$TTL 86400
+@	IN	SOA	ns.yowassupbro.com.	hostmaster.yowassupbro.com. (
+		2016022401
+		21600
+		3600
+		604800
+		86400)
+	IN	NS	ns.yowassupbro.com.
+205	IN	PTR	jupiter.yowassupbro.com.

@@ -1,0 +1,239 @@
+; File written on Thu Mar 17 15:34:18 2016
+; dnssec_signzone version 9.10.3-P4
+yowassupbro.com.	86400	IN SOA	ns.yowassupbro.com. hostmaster.yowassupbro.com. (
+					20160218   ; serial
+					21600      ; refresh (6 hours)
+					3600       ; retry (1 hour)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					XexpBPA/xOMNkt98O9+Bg9mWqFxoE1sF7jLQ
+					e2v8komvYexnWWFr0niQ37xXGwHiCMvV9SCs
+					iwKqX7DOs7vdXA== )
+			86400	NS	ns.yowassupbro.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					K7biFXfYwU32t0cMxSqhTrAwLyoRrX3eoXQR
+					9HY2sA3VDbaEdLbdIunFxjOagubFEexG5AEf
+					xI1c4SaUmm2n7w== )
+			86400	NSEC	_kerberos.yowassupbro.com. NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					HqpemO9WYd8PhZQ0gNXpSlPRTQZSVJLmYx7E
+					pc1wIA7kQvMLAS3nY7uWmMqrC/1ji43ybv/b
+					mgABYewHSdnhfg== )
+			86400	DNSKEY	256 3 5 (
+					AwEAAcVWFSlnkxphWw/TzPk837mEFwu1fVQF
+					JzoCjynHqV8pO3BqTXpGMlL4wRXjzrbNuaJi
+					iq5iERlbsmNCRAEkqzM=
+					) ; ZSK; alg = RSASHA1; key id = 46206
+			86400	DNSKEY	257 3 5 (
+					AwEAAZwGmO7ZDDO7crTudO6pRYp7EftckZbM
+					g/IK8sluuPURovI8RPTRuTA8rdush5GlIW21
+					sq3ypv0eUXCaUSNMEdM=
+					) ; KSK; alg = RSASHA1; key id = 65179
+			86400	RRSIG	DNSKEY 5 2 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					r8Opt8RkJLBhEGzWZJ4zupV3zDU73YoAKXDn
+					uYOz9N1GChLSGpYz3O8eyZvoecfvrt5Aksb3
+					BmOaqaL4LS5AXg== )
+			86400	RRSIG	DNSKEY 5 2 86400 (
+					20160416053418 20160317053418 65179 yowassupbro.com.
+					KcF929epAWoRrAxm1szuuMELFGQA0Hp0ruhy
+					w4Qqfn8P1cTIAIUMr5BLhcp4e4H2L9xZqJpl
+					n7z4wlBljMyK7A== )
+_kerberos.yowassupbro.com. 86400 IN TXT	"YOWASSUPBRO.COM"
+			86400	RRSIG	TXT 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					loAoSATdeRspx4c1rEwG8VsA0msqEdaGGx8q
+					/afFwzE99rtwXcRcfd5/oTWWLeVteEHsRffe
+					IQIoVwQJ3ayLTQ== )
+			86400	NSEC	_kerberos._tcp.yowassupbro.com. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					GkUT/YIy5MbA5hYlcLA6jCakMM3nvYDLjroz
+					NqS+7b3Q5zyqT09i9V3exPpVNouPezw0gBwP
+					bjV/b9J2JJFYAg== )
+_kerberos._tcp.yowassupbro.com.	86400 IN SRV 1 0 88 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					dpaEdhGxLaGOnDGib/+Vm4HbQumxbqx+kc0J
+					zeWuGpN69R0A6MSUfub0ug8tYSi1ypLRxnaD
+					mFAFsoLyHVJyCA== )
+			86400	NSEC	_kerberos-adm._tcp.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					D9TbOKFMsQbCIGcev8jIEkpXIVeV6XZNTSaA
+					l5y52bpMKgp6ifVsfhsRjlAxud9FS8d1JZOu
+					6z2msTlwk8rqzw== )
+_kerberos-adm._tcp.yowassupbro.com. 86400 IN SRV 1 0 749 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					pQAs/qdezhkCGfU3XW5UdUTlg81O+br+OT29
+					zRdytFDqLW8rNoEQ7zZWStnRdv95ZDr5YjoQ
+					keP3hHABHRhDPw== )
+			86400	NSEC	_sip._tcp.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					bsBe8eYBaXJsYpvmHD1hv5en75EnUn+iZnHB
+					YlB+2P/wvl5z0wfk7cxS56/vG2njrJmBs1e4
+					/qTX8XqsSKXNrw== )
+_sip._tcp.yowassupbro.com. 86400 IN SRV	0 1 5060 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					F5hBl6WIkp3sXW/QpG2/9TfgiYb5wfIV8teY
+					9hba4iENS/pg0Pi0T/rpLdBygt0xvP/3dR8k
+					kNDPmuxpZVaFrA== )
+			86400	NSEC	_kerberos._udp.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					EvOGVvqcr/AsRSwY9wTK9KRZGfcFUxCJ3wI8
+					X90PQjdW7dGqtxpY5J7OW8iOrIJ2jXvNPaYX
+					bsHtZmZ9xTmrCA== )
+_kerberos._udp.yowassupbro.com.	86400 IN SRV 1 0 88 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					BRTmkaV/EC5MDHm4aYfn8koVpnNju1+ArnVU
+					264WfbccAPj+VgbY8z3RY2RRRZqn5ficcLxO
+					ttyNxjMmXkzd6g== )
+			86400	NSEC	_kpasswd._udp.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					sTpFNKtO3ckpsSS0wYi96baVxAtYYmGuX9uV
+					qITEqBaBk7/u6iopIwdW5e0M5UqbTT3fB9Zn
+					MIZ+fbrCjxwoDw== )
+_kpasswd._udp.yowassupbro.com. 86400 IN	SRV 1 0 464 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					vCtje07AfcJOjbA+Rj8BDwQzyR9WAG3VUpqF
+					wa/i+TN2+grjsqb/oKJ11UA/l1iRwz69zq+E
+					aP0dR0bPD6AZWA== )
+			86400	NSEC	_sip._udp.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					JYdreiG+q+wvDey/foIbr9uKb05H0rqoJ8Hc
+					jpNaDyD/qVrhk69Y+iI4elYfsAjjL2+RiqT9
+					z8TqQVnICwY9mw== )
+_sip._udp.yowassupbro.com. 86400 IN SRV	0 1 5060 jupiter.yowassupbro.com.
+			86400	RRSIG	SRV 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					dDx3ncHxPG3AvPDZ1GX3WZu9yJkB8aSKdIRa
+					SBdaf82WtI25Ifb6C9eaCijGv0Q6FmTReqQC
+					oZELt4QgcCXWVw== )
+			86400	NSEC	mail.yowassupbro.com._report._dmarc.mail.yowassupbro.com.yowassupbro.com. SRV RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					MPCBYITg2VRjqAs7R5auKrQ020Pk+R+alzFg
+					plcQvL9EMLG2fvBYNMACCz+af1ZCZb0+G/1O
+					9fmUWLC4TBiinw== )
+imap.yowassupbro.com.	86400	IN A	45.32.44.205
+			86400	RRSIG	A 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					GpIyU3T9U8uFRPvFBnctBYGD8aQuxWGZ+YyU
+					BT6FSPOC7DHdY2mIToIJG5kaEs/P9hErJYhK
+					BCKOq+DaITKZtA== )
+			86400	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+			86400	RRSIG	AAAA 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					Tm3+Lh0Jswfvwm0XjHptQhyK/PGSnKTP6vWS
+					qvjx0qpwoO9CFXB9+8PQVbkMsuex2p5dRBqH
+					fzmp2UYxBDJpWg== )
+			86400	NSEC	jupiter.yowassupbro.com. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					lbfJYGR8ufJSBEkB5osPWnHW7jji2M+E45/n
+					5bS4KF+GzstuSobl6+Y6/aEU+PGqpc8b+/gR
+					iPmyMIDP8xbGtQ== )
+jupiter.yowassupbro.com. 86400	IN A	45.32.44.205
+			86400	RRSIG	A 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					s1fYGVOE3ECChStHy4+o5zRkdrIdHVepoYBj
+					lVocpwPkRpuneY6r8hihcvZC11T5MPj/d5gc
+					U0sN7bm39D3tOg== )
+			86400	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+			86400	RRSIG	AAAA 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					rO7035L9zuSdIGkNE2xDG2Zut7sj8Tpts+zf
+					u++Uz+28o5b6GhZTj2kADRMf28CDT0YY76Id
+					TKr/FKlJOxM5nA== )
+			86400	NSEC	mail.yowassupbro.com. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					Hx4vn0JmjyIFKjMZHMnJJa4AUdf0PKECBHCa
+					wuenNJzhJs9cCQfl6YC7AZ3FfJg/SkcJosl6
+					3aa3DFCuWD4/kQ== )
+mail.yowassupbro.com.	86400	IN A	45.32.37.189
+			86400	RRSIG	A 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					shDlAJW4sYKNPeUVzt8Xx2luvU8JPknOKSg4
+					Lu63oDAN8QFcylZi2GQl+RaYxzYCbv9iaW6+
+					1JvLrWUcJuZ8eg== )
+			86400	MX	10 mail.yowassupbro.com.
+			86400	RRSIG	MX 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					eY2XBJtuxxgd7shESMVwpOiY3ck4RmjjJY1T
+					5H25ylO2WGfT/EyA5krlnyiF91rHrx84cSEP
+					t9T6z2UTX5VIFw== )
+			86400	TXT	"v=spf1 a mx -all"
+			86400	TXT	"google-site-verification=r2d58j-qp28HjIJogij5WBhCAULCgovvFoJHrDBAz0w"
+			86400	RRSIG	TXT 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					OXLBlY7sk9aqjhyof/8bdz3W7QkvinqpHQNT
+					gvmGfngYH1p7sJ4Svz1HWiS4Mq5wdDy2WBcn
+					2NiaVRkRE3+bcw== )
+			86400	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:cea
+			86400	RRSIG	AAAA 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					kG/pAKiE/L1ovJ6lZ2eK/jEZx9c2qJz/M1YU
+					EZrcZVcQLxZ3Tro0GiDcl87Us5u9i/pWlNeO
+					ANo+RdnCQwQUrg== )
+			86400	NSEC	032016._domainkey.mail.yowassupbro.com. A MX TXT AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					KuoBWABlMDbhlKRWqNPOrivB4xfSmwHvSSG2
+					Fl4EmsHMkRx5wyVARv6n5mgDeEwclb1HcCXW
+					qsSFaSd7eUeL3Q== )
+032016._domainkey.mail.yowassupbro.com.	86400 IN TXT "v=DKIM1; k=rsa; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYehs6yHD7PWB5lfoAk29iimMH0AbZljmass0TqRY5nwwGADlLgQLj128hjtzPgmCnDO8eV2PAanFCZ5vtp3/khA+jxngLRe1MLLqy75qZiV+QIpTIY8ulWgREB1dKIvhZDgpa1cJQe3q50o+rB0pgy8pSgFBp3pPs93tFBDX0xwIDAQAB"
+			86400	RRSIG	TXT 5 5 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					YBSvsSWYc2ubiQg4OAKobPCX9SHce3O8Q1tW
+					FP4+suZ2KO/qtHWyjL0djZK4IV3V4VHNC4Uy
+					PRekkqS4l18lmw== )
+			86400	NSEC	ns.yowassupbro.com. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 5 5 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					SDSqA5zEa/0ICEgOSuuuGg8jDHoEtEO8cso+
+					WJxIbOsoo8bJTHWpLmcDoeRFVMyYnC2fz8wn
+					KNiqrgfsBFrHIg== )
+ns.yowassupbro.com.	86400	IN A	45.32.44.205
+			86400	RRSIG	A 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					QVn4B2aKSrT6v1cZP5aBBG488nByXbzlaAZX
+					8xkDkDH+fGUJaOkR2cmVppW5g4EfgP2QMoTK
+					OaibgP0cWK1N5Q== )
+			86400	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+			86400	RRSIG	AAAA 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					lcVhqRRQTzczN2OE1np1gg/O9QbqbLqQ1+pD
+					fTZhjZ3OaA1/wxGjV22NR8RqGL3zWOjT6nb1
+					dARiU0OjbHihgQ== )
+			86400	NSEC	yowassupbro.com. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					SZRCWc1P6VDAXvWYB7/luEGZ/pul9UGuYOXO
+					0tvJC2ZvGbu5b6PKlVlqMheX4iRi3QNd5vgP
+					sr3G2HFFxtELyg== )
+mail.yowassupbro.com._report._dmarc.mail.yowassupbro.com.yowassupbro.com. 86400	IN TXT "v=DMARC1; p=quarantine; rua=mailto:postmaster@mail.yowassupbro.com; ruf=mailto:postmaster@mail.yowassupbro.com; adkim=r; aspf=r; pct=100; ri=86400; sp=quarantine"
+			86400	RRSIG	TXT 5 10 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					YMdpgBafRlOwo+u5aRE0VQordUGiKIwqnpCl
+					sGV6AhEFCH+y+7ihsqXMg00XgbDZ11Nqe1mO
+					SwzhW7zfM9Nlyw== )
+			86400	NSEC	imap.yowassupbro.com. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 5 10 86400 (
+					20160416053418 20160317053418 46206 yowassupbro.com.
+					dp1EvicEIbRx1jYXPtFg3QOvkjmEF83wnMkV
+					WXNFiZOVsbUrewxNDgSRh5lvKVPmBxHgCgMh
+					dFCjmvrxtOj1Gw== )

@@ -1,0 +1,33 @@
+$ORIGIN yowassupbro.com.
+$TTL 86400
+@	SOA	ns.yowassupbro.com.	hostmaster.yowassupbro.com. (
+		20160218
+		21600
+		3600
+		604800
+		86400)
+	IN	NS	ns.yowassupbro.com.
+mail	IN	A	45.32.37.189
+mail	IN	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:cea
+ns	IN	A	45.32.44.205
+ns	IN	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+dev	IN	A	45.32.44.205
+dev	IN	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+imap	IN	A	45.32.44.205
+imap	IN	AAAA	2001:19f0:7000:a5e9:5400:ff:fe1f:ceb
+mail	IN	TXT	"v=spf1 a -all"
+mail	IN	MX	10 mail.yowassupbro.com.
+
+dkim._domainkey.mail    IN              TXT ("v=DKIM1";
+"p=MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvVKSfAC2mfCYzbe3RZXY"
+"oO3ZRifzg44+ETUZIgVtlyrbBpyg56wjoYArXbhzlQydO07gjAloaD4f1jddcuyW"
+"GINsp0eqJNF5RdWL9MzXb6dqNPxvODNahVdSnXKUa6yKRxleYUe201yelxfgySJb"
+"bIl7PMkE8ugCEFjs/erO71Ho/rDnPfjLzEUoFzY1jAVLc3vWoTa5N9Q2wh1buoUW"
+"mpNEHuAqkadyekSrwd43DtFVncAw8Vx0JkLEP5TLYf3q5r7MF4BMOMUFxiI7lQwJ"
+"QClgdnjoQ0ekWZaP4hmfsjgvttbQvBZeEjiGM7ZUmArVumCZy9ThXb5OCOEkG4do"
+"YKvcHo/DRJ8smszo2vDRNmur2I3mkK5t25VkeQueeYWAYZWnmEpjZmmsgMVK2cv5"
+"0UHCZbvwU/NNsbshyRFvjLRtBSvErqfEBkujBU5v32nnfU/Ow49eT0/jjuvlz3F/"
+"zs1G0pRDwfJTfrsXunkNjCQxeHoiCxHsO2pFncZPOqhPh0/f9cVSp/BoLR5PDBRe"
+"MREq/KOO+9ZekTq9j6NMneCohkCbOmdEP98RzVuFEzemVFvXTOYkIcrS/VH4g8od"
+"TAtfJ3wpgk3IupEEe7RCG9PA5q2omE5Wlo3fCuNj/6FdGB/Drb71s21B9hjkUKmj"
+"02eIIJlkR4rGjqYRwoLdo48CAwEAAQ==")
